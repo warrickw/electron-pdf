@@ -1,6 +1,8 @@
 electron-pdf
 ============
 
+NOTE: My modification is simply the addition of passing the --no-sandbox flag to electron, to permit running in docker containers
+
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Downloads][downloads-image]][downloads-url]
