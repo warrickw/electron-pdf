@@ -7,6 +7,7 @@ var args = process.argv.slice(2)
 
 args.unshift('--')
 args.unshift(path.resolve(path.join(__dirname, './lib/charge.js')))
+args.unshift('--no-sandbox')
 
 var electron = spawn(electronPath, args, {
   //       stdin,     stdout,    stderr
